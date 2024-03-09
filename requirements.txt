@@ -118,7 +118,6 @@ protobuf==4.21.6
 psutil==5.9.1
 psycopg2-binary==2.9.5
 ptyprocess==0.7.0
-pubmed2pdf==0.0.3
 pure-eval==0.2.2
 pyarrow==9.0.0
 pyasn1==0.4.8

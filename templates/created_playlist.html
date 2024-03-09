@@ -1,0 +1,26 @@
+<html><center>
+    <img style="width:10%" src="{{url_for('static',filename='icon.gif')}}"></img>
+    <br>
+    <a href="{{url_for('home')}}">
+        <button>Home</button></a><br>
+        <br>
+        <form method="POST" action="{{url_for('spo_playlist')}}">
+            <button>DO IT AGAIN?</button>
+        </form>
+<br>
+<br>
+<br>
+    Playlist Created....
+</center>
+
+</html>
+<style>
+
+    button{
+        background-color:#1DB954;
+        border-radius: 10px;
+        padding:10px;
+        color:white;
+        border:none;
+    }
+    </style>
